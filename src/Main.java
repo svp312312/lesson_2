@@ -11,10 +11,9 @@ public class Main {
         employees[2] = new Manager("Ева-Мария", "Лето", 20, "Менеджер", "Таргетированная реклама");
         employees[3] = new Security("Венедикт", "Гусаров", 39, "Охранник", "Владение оружием");
 
-        System.out.println("Список сотрудников");
+        System.out.println("Список сотрудников \n");
         for(int i = 0; i < n; i++){
             System.out.print(i + 1 + ". ");
-            employees[i].display();
             employees[i].displayGeneralInformation();
             System.out.println("Действия в течение дня:");
             employees[i].displayActivities();

@@ -45,11 +45,9 @@ abstract class Employee {
     public String getSpecialSkills() {
         return specialSkills;
     }
-    public void display(){
-        System.out.println(getPosition());
-    };
+
     public void displayGeneralInformation(){
-        System.out.print(getPosition() + "\n" + getFirstName() + " " + getLastName() + ". Возраст (лет): " + getAge() + ". Должность: " + getPosition() + ". Спец. навыки:" + getSpecialSkills());
+        System.out.println(getPosition() + "\n" + getFirstName() + " " + getLastName() + ". Возраст (лет): " + getAge() + ". Должность: " + getPosition() + ". Спец. навыки: " + getSpecialSkills());
     };
 
     public abstract void displayActivities();
