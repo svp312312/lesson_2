@@ -3,17 +3,20 @@ abstract class Employee {
     private String lastName;
     private int age;
     private String position;
+    private String specialSkills;
     {
         firstName = null;
         lastName = null;
         age = 0;
         position = null;
+        specialSkills = null;
     }
-    public Employee(String firstName, String lastName, int age, String position) {
+    public Employee(String firstName, String lastName, int age, String position, String specialSkills) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.position = position;
+        this.specialSkills = specialSkills;
     }
     public void setFirstName(String firstName) {
         this.firstName = firstName;
@@ -39,12 +42,15 @@ abstract class Employee {
     public String getPosition() {
         return position;
     }
+    public String getSpecialSkills() {
+        return specialSkills;
+    }
     public void display(){
         System.out.println(getPosition());
     };
     public void displayGeneralInformation(){
-        System.out.print(getFirstName() + " " + getLastName() + ". Возраст (лет): " + getAge() + ". Должность: " + getPosition());
+        System.out.print(getPosition() + "\n" + getFirstName() + " " + getLastName() + ". Возраст (лет): " + getAge() + ". Должность: " + getPosition() + ". Спец. навыки:" + getSpecialSkills());
     };
-    public abstract void displaySpecialSkills();
+
     public abstract void displayActivities();
 }
