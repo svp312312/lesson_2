@@ -6,6 +6,6 @@ public class Manager extends Employee{
 
     @Override
     public void displayActivities(){
-        System.out.println(" 1. Приходит на работу. \n 2. Управляет продажами. \n 3. Обедает 60 минут. \n 4. Уходит с работы.");
+        System.out.println(" 1) Приходит на работу. \n 2) Управляет продажами. \n 3) Обедает 60 минут. \n 4) Уходит с работы.");
     }
 }

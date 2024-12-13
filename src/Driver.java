@@ -5,6 +5,6 @@ public class Driver extends Employee{
     }
     @Override
     public void displayActivities(){
-        System.out.println(" 1. Приходит на работу. \n 2. Управляет транспортным средством. \n 3. Обедает 40 минут. \n 4. Уходит с работы.");
+        System.out.println(" 1) Приходит на работу. \n 2) Управляет транспортным средством. \n 3) Обедает 40 минут. \n 4) Уходит с работы.");
     }
 }

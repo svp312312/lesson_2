@@ -6,7 +6,7 @@ public class Cleaner extends Employee{
 
     @Override
     public void displayActivities(){
-        System.out.println(" 1. Приходит на работу. \n 2. Убирает офис и прилегающую территорию. \n 3. Обедает 30 минут. \n 4. Уходит с работы.");
+        System.out.println(" 1) Приходит на работу. \n 2) Убирает офис и прилегающую территорию. \n 3) Обедает 30 минут. \n 4) Уходит с работы.");
     }
 
 
